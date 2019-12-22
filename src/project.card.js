@@ -10,13 +10,12 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 function ProjectCard(props) {
     return (
-        <Card raised={true}>
+        <Card raised={true} style={{backgroundColor:"#00000000", color:"white"}}>
         <CardHeader
         avatar={
-            <GitHubIcon/>
+            <GitHubIcon htmlColor="white"/>
         }
-        title= {props.title}
-        subheader="September 14, 2016"/>
+        title= {props.title}/>
             <CardContent>
                 <Typography variant="h5"></Typography>
                 <Typography variant="body2">{props.content}</Typography>

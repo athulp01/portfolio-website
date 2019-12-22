@@ -42,6 +42,7 @@ function Home(props) {
             </Grid>
           </Grid>
         </Grid>
+        <ExpandMoreIcon htmlColor="white" fontSize="large" className="down"/>
       </Grid>
   )
 }
